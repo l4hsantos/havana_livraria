@@ -166,11 +166,22 @@ def menu():
         elif opcao == "6":
             lista_compra()
         elif opcao == "0":
-            print("\nEncerrando o sistema...")
-            print("Obrigada por visitar a Livraria das Cartas Perdidas!")
+            print("—" * 60)
+            print("—" * 60)
+            print("╔══════════════════════════════════╗")
+            print("║  ⌨️ 𝓞𝓫𝓻𝓲𝓰𝓪𝓭𝓪 𝓹𝓮𝓵𝓪 𝓹𝓻𝓮𝓯𝓮𝓻𝓮𝓷𝓬𝓲𝓪   ║")
+            print(" Nossas páginas estarão sempre abertas para você.")
+            print("║                                  ║")
+            print("║  VOLTE QUANDO O SEU CORAÇÃO PEDIR POR NOVAS HISTÓRIAS!  ║")
+            print("║   ✍️ ONDE A SUA PRÓXIMA GRANDE AVENTURA ESTÁ A UMA PÁGINA DE DISTÂNCIA║")
+            print("║                                  ║")
+            print("╚══════════════════════════════════╝")
+           
+            print("────────────⌨️ LIVRARIA DAS CARTAS PERDIDAS")
+            print("—" * 60)
             break
         else:
-            print("Opção inválida. Tente novamente.")
+            print("Essa opção não existe. Tente novamente, por favor.")
 
 boas_vindas()
 menu()
